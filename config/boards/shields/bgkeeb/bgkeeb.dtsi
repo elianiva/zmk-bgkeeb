@@ -29,7 +29,7 @@
         // #define MATRIX_COL_PINS { F4, D4, F5, B1, B2 } == { 21, 4, 20, 15, 16 }
         row-gpios
             = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
-            , <&pro_micro 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
+            , <&pro_micro 10  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
             , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
             , <&pro_micro 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
             ;
